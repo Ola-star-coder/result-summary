@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.result-summary {
+    margin-top: 100px;
+    margin-left: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    color: #fff;
+    z-index: 1;
+}
+
+.result-head {
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.result-text {
+    text-align: center;
+    padding-top: 20px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result-text p {
+    font-weight: 100;
+}
+
+.result-text span {
+    font-size: 66px;
+    padding-top: 20px;
+    display: block;
+    font-weight: 600;
+}
+
+.result h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.result p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.summary {
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px hsl(222, 9%, 79%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -10px;
+}
+
+.summary-head {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-text {
+    background: hsl(0, 100%, 90%);
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.summary-text h3 {
+    font-size: 25px;
+    color: hsl(0, 100%, 70%);
+    font-weight: 500;
+}
+
+.summary-text p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.summary-text2 {
+    background: hsl(39, 100%, 90%);
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.summary-text2 h3 {
+    font-size: 25px;
+    color: hsl(39, 100%, 60%);
+    font-weight: 500;
+}
+
+.summary-text2 p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.summary-text3 {
+    background: hsl(166, 100%, 90%);
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.summary-text3 h3 {
+    font-size: 25px;
+    color: hsl(166, 100%, 40%);
+    font-weight: 500;
+}
+
+.summary-text3 p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.summary-text4 {
+    background: hsl(234, 85%, 90%);
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.summary-text4 h3 {
+    font-size: 25px;
+    color: hsl(234, 85%, 60%);
+    font-weight: 500;
+}
+
+.summary-text4 p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+button {
+    margin: 20px 20px;
+    width: 90%;
+    height: 60px;
+    border-radius: 40px;
+    background: hsl(224, 30%, 27%);
+    color: #fff;
+    transition: ease-in-out;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #000000;
+    transition: .5s;
+    font-weight: 700;
+}
+
+@media screen and (max-width:600px) {
+    .result-summary {
+        margin-top: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .summary {
+        background: #fff;
+        box-shadow: 2px 2px 2px 2px hsl(222, 9%, 79%);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-left: -10px;
+    }
+
+    .result {
+        z-index: 1;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+}
